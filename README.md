@@ -71,16 +71,20 @@ See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/C
 
 
 
-**Windows 11 additional tools or apps (optional):**
+**Windows 11 graphics and sound features (optional):**
 
 ```
 # if you have nvidia/amd gpu (graphics card), install the apps related to your gpu manufacturer
-# enable hdr from windows 11: System > Display > HDR 'on'
+# enable hdr from windows 11:
+System > Display > Auto HDR 'on'
+# disable variable refresh:
+System > Display > Graphics > Advanced graphics settings > Variable refresh rate 'off'
 # if using nvidia gpu 30 series or higher, enable rtx vsr and hdr from gpu app
 # for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
 https://downloads.videolan.org/testing/vlc-rtx-upscaler/
-# rtx vsr and hdr will also upscale youtube videos
-# enable spatial sound from windows 11: System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
+# rtx vsr and hdr will also upscale youtube and other streaming videos
+# enable spatial sound from windows 11:
+System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
 ```
 
 
@@ -96,8 +100,8 @@ See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Th
 
 
 ### Post-install notes
-* Use USB device or NAS to backup all your files. Use Google Drive for remote backups 
-* Schedule to update all your apps with winget
+* Use USB device or NAS to backup all your files. Use Google Drive, OneDrive, Dropbox, Proton for remote backups 
+* Schedule to update W11 and all your apps with winget
 
 
 

@@ -4,6 +4,11 @@ It is maintained and updated for general use only.
 The apps available through winget are updated by their respective developers.
 
 
+### Pre-install notes
+* Use the fastest slot in your motherboard to plug nvme drives. Match the pcie gen and take advantage of the updated features or speed
+* Enable the timings for your RAM using the motherboard's bios
+
+
 ### Getting Started
 **Follow the Microsoft guidelines on how to create USB ISO image**
 
@@ -13,14 +18,14 @@ See [Microsoft W11 Download](https://www.microsoft.com/en-us/software-download/w
 
 ```
 # plug the usb from the MSFT media creation (license maybe required)
-# need network/internet during the latter part of W11 install, best wired ethernet to avoid driver install
+# need internet during the latter part of W11 install, best to use wired ethernet
 # make sure bios is setup for W11 install if required (see UEFI)
-# bypasses microsoft account login and use local only
+# bypasses microsoft account login and use local only:
 (shift + f10)
 # type:
 start ms-cxh:localonly
-# press enter and it will go through a boot process to create local account
-# install should complete from hereon, unplug usb installer
+# press enter and it will go through a boot process, for you to create local account
+# once the install concludes, unplug usb drive
 # update w11 if needed
 ```
 
@@ -89,7 +94,7 @@ See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Th
 
 
 
-### Post install
+### Post-install notes
 * Use USB device or NAS to backup all your files. Use Google Drive for remote backups 
 * Schedule to update all your apps with winget
 

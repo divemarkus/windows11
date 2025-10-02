@@ -24,12 +24,15 @@ start ms-cxh:localonly
 # update w11 if needed
 ```
 
+
 **Windows 11 Driver, BIOS, and peripherals install:**
 
 ```
-# install any necessary bios or hardware drivers (see manufacturer of motherboard)
-# install any necessary drivers or software for peripherals: wireless devices, dac, keyboard, mouse, printers
+# install any necessary hardware drivers/bios (see manufacturer of motherboard)
+# install any necessary drivers/softwares for peripherals: wireless devices, dac, keyboard, mouse, printers
 ```
+
+
 
 **Windows 11 Apps install:**
 
@@ -38,6 +41,7 @@ start ms-cxh:localonly
 ```
 
 See [winget-install-apps repo](https://github.com/divemarkus/winget-install-apps)
+
 
 
 **Windows 11 bloat removal:**
@@ -50,6 +54,7 @@ See [winget-install-apps repo](https://github.com/divemarkus/winget-install-apps
 See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 
 
+
 **Windows 11 security features (DoT):**
 
 ```
@@ -59,7 +64,22 @@ See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/Configure-DoT.ps1)
 
 
-**Windows 11 threat hunting (osquery):**
+
+**Windows 11 additional tools or apps (optional):**
+
+```
+# if you have nvidia/amd gpu (graphics card), install the apps related to your gpu manufacturer
+# enable hdr from windows 11: System > Display > HDR 'on'
+# if using nvidia gpu 30 series or higher, enable rtx vsr and hdr from gpu app
+# for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
+https://downloads.videolan.org/testing/vlc-rtx-upscaler/
+# rtx vsr and hdr will also upscale youtube videos
+# enable spatial sound from windows 11: System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
+```
+
+
+
+**Windows 11 threat hunting (optional):**
 
 ```
 # use the following osquery scripts below to hunt down threats or malicious apps
@@ -68,34 +88,12 @@ See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/C
 See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Threat-Hunting-v1)
 
 
-**Windows 11 additional tools or apps (optional):**
-
-```
-# if you have nvidia or amd gpu (graphics card), install the apps related to your gpu manufacturer
-# enable hdr from windows 11: System > Display
-# if using nvidia gpu 30 series or higher, enable rtx vsr and hdr from nvidia app
-# for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
-https://downloads.videolan.org/testing/vlc-rtx-upscaler/
-# rtx vsr and hdr will also upscale youtube videos
-# enable spatial sound from windows 11: System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
-```
 
 ### Post install
-* Make sure you use USB device or NAS to backup all your files. 
-* If you don't have any hardware to backup files, use Google Drive.
+* Use USB device or NAS to backup all your files. Use Google Drive for remote backups 
+* Schedule to update all your apps with winget
 
-### winget usage
 
-```
-# Uninstall by name (best match)
-winget uninstall “7-Zip”
-
-# List upgradeable apps
-winget upgrade
-
-# Force-yes on prompts
-winget uninstall --id VLC.VLC --silent --accept-package-agreements
-```
 
 ### Requirements
 * .NET Framework 4.0

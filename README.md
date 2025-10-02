@@ -77,6 +77,7 @@ See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Th
 # for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
 https://downloads.videolan.org/testing/vlc-rtx-upscaler/
 # rtx vsr and hdr will also upscale youtube videos
+# enable spatial sound from windows 11: System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
 ```
 
 ### Post install

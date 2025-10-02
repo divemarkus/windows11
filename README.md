@@ -68,6 +68,16 @@ See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/C
 See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Threat-Hunting-v1)
 
 
+**Windows 11 additional tools or apps (optional):**
+
+```
+# if you have nvidia or amd gpu (graphics card), install the apps related to your gpu manufacturer
+# enable hdr from windows 11: System > Display
+# if using nvidia gpu 30 series or higher, enable rtx vsr and hdr from nvidia app
+# for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
+https://downloads.videolan.org/testing/vlc-rtx-upscaler/
+# rtx vsr and hdr will also upscale youtube videos
+```
 
 ### Post install
 * Make sure you use USB device or NAS to backup all your files. 

@@ -12,25 +12,29 @@ See [Microsoft W11 Download](https://www.microsoft.com/en-us/software-download/w
 **Windows 11 Operating System install:**
 
 ```
-1. plug the usb from the MSFT media creation (license maybe required)
-2. need network/internet during the latter part of W11 install, best wired ethernet to avoid driver install
-3. make sure bios is setup for W11 install if required (see UEFI)
-4. shift + f10 and type: start ms-cxh:localonly (this bypasses internet login)
-5. w11 install should complete from hereon, unplug usb installer
-6. update w11 if needed
+# plug the usb from the MSFT media creation (license maybe required)
+# need network/internet during the latter part of W11 install, best wired ethernet to avoid driver install
+# make sure bios is setup for W11 install if required (see UEFI)
+# bypasses microsoft account login and use local only
+(shift + f10)
+# type:
+start ms-cxh:localonly
+# press enter and it will go through a boot process to create local account
+# install should complete from hereon, unplug usb installer
+# update w11 if needed
 ```
 
 **Windows 11 Driver, BIOS, and peripherals install:**
 
 ```
-7. install any necessary bios or hardware drivers (see manufacturer of motherboard)
-8. install any necessary drivers or software for peripherals: wireless devices, dac, keyboard, mouse, printers
+# install any necessary bios or hardware drivers (see manufacturer of motherboard)
+# install any necessary drivers or software for peripherals: wireless devices, dac, keyboard, mouse, printers
 ```
 
 **Windows 11 Apps install:**
 
 ```
-9. install apps using winget, see link below
+# install apps using winget instead of doing it manually (link below)
 ```
 
 See [winget-install-apps repo](https://github.com/divemarkus/winget-install-apps)
@@ -39,8 +43,8 @@ See [winget-install-apps repo](https://github.com/divemarkus/winget-install-apps
 **Windows 11 bloat removal:**
 
 ```
-10. clean-up the bloat with crapfixer or do it on your own
-11. use openrgb or signalrgb to control all rgb, instead of using manufacturer (see winget script)
+# clean-up the bloat with crapfixer or do it on your own
+# use openrgb or signalrgb to control all rgb, instead of using manufacturer (see winget script)
 ```
 
 See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
@@ -49,7 +53,7 @@ See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 **Windows 11 security features (DoT):**
 
 ```
-12. dns over tls or DoT is now available on w11, use it along with your favorite recursive dns providers
+# dns over tls or DoT is now available on w11, use it along with your favorite recursive dns providers
 ```
 
 See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/Configure-DoT.ps1)

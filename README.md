@@ -59,6 +59,16 @@ See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/Configure-DoT.ps1)
 
 
+**Windows 11 threat hunting (osquery):**
+
+```
+# use the following osquery scripts below to hunt down threats or malicious apps
+```
+
+See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Threat-Hunting-v1)
+
+
+
 ### Post install
 * Make sure you use USB device or NAS to backup all your files. 
 * If you don't have any hardware to backup files, use Google Drive.
@@ -66,12 +76,11 @@ See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/C
 ### winget usage
 
 ```
-# Misc optional apps
-winget upgrade --id Microsoft.VisualStudioCode --exact
-
-
 # Uninstall by name (best match)
 winget uninstall “7-Zip”
+
+# List upgradeable apps
+winget upgrade
 
 # Force-yes on prompts
 winget uninstall --id VLC.VLC --silent --accept-package-agreements

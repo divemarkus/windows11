@@ -61,7 +61,7 @@ See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 
 
 
-**Windows 11 security features (DoT):**
+**Windows 11 DNS security features (DoT):**
 
 ```
 # dns over tls or DoT is now available on w11, use it along with your favorite recursive dns providers
@@ -85,6 +85,11 @@ https://downloads.videolan.org/testing/vlc-rtx-upscaler/
 # rtx vsr and hdr will also upscale youtube and other streaming videos
 # enable spatial sound from windows 11:
 System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
+# if you have nvidia gpu, open nvidia app:
+System > Video > Super Resolution 'on' = 'high' = 'show status indicator on video'
+System > Video > HDR 'on' = 'show status indicator on video'
+System > Graphics > add VLC > enable RTX Dynamic Vibrance, RTX HDR 'on'
+# if using VLC to play videos, make sure you have the correct version that supports these features
 ```
 
 

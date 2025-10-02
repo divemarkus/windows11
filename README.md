@@ -5,8 +5,9 @@ The apps available through winget are updated by their respective developers.
 
 
 ### Pre-install notes
+* If you have W10 installed, check if your hardware can upgrade to W11. If you're hardware passes, most likely license for W11 will carry from W10
 * Use the fastest slot in your motherboard to plug nvme drives. Match the pcie gen and take advantage of the updated features or speed
-* Enable the timings for your RAM using the motherboard's bios
+* Enable the timings for your RAM using the motherboard's bios (XMP for Intel, EXPO for AMD)
 
 
 ### Getting Started

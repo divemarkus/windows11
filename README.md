@@ -106,6 +106,6 @@ See [osquery script repo](https://github.com/divemarkus/osquery/blob/main/W11-Th
 * PowerShell 5.0+
 
 ### More information
-Check it out...
+[Check it out...](https://github.com/divemarkus)
 
 

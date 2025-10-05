@@ -67,7 +67,7 @@ See [crapfixer repo](https://github.com/builtbybel/CrapFixer)
 # dns over tls or DoT is now available on w11, use it along with your favorite recursive dns providers
 ```
 
-See [dns over tls script repo](https://github.com/divemarkus/scripts/blob/main/Configure-DoT.ps1)
+See [dns over tls script repo](https://github.com/divemarkus/dns/blob/main/Configure-DoT.ps1)
 
 
 

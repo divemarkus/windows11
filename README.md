@@ -82,7 +82,7 @@ System > Display > Graphics > Advanced graphics settings > Variable refresh rate
 # if using nvidia gpu 30 series or higher, enable rtx vsr and hdr from gpu app
 # for playing videos or movies use vlc version 3.0.19. this version strictly supports vsr/hdr:
 https://downloads.videolan.org/testing/vlc-rtx-upscaler/
-# rtx vsr and hdr will also upscale youtube and other streaming videos
+# rtx vsr and hdr will also upscale from Browser (RTX usually only works in Browsers)
 # enable spatial sound from windows 11:
 System > Sound > (choose the sound device/output) > Spatial sound: Windows Sonic for Headphones
 # if you have nvidia gpu, open nvidia app:
@@ -90,6 +90,7 @@ System > Video > Super Resolution 'on' = 'high' = 'show status indicator on vide
 System > Video > HDR 'on' = 'show status indicator on video'
 System > Graphics > add VLC > enable RTX Dynamic Vibrance, RTX HDR 'on'
 # if using VLC to play videos, make sure you have the correct version that supports these features
+# check-out MPC-BE with madVR for best video upscaling
 ```
 
 

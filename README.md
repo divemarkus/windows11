@@ -130,8 +130,6 @@ To access advanced features like WSL 3.0:
 
 ### RGB Lighting Control
 - Install OpenRGB or SignalRGB for custom lighting effects:
-  - GitHub: [OpenRGB](https://github.com/opensource-org/OpenRGB)
-  - GitHub: [SignalRGB](https://github.com/patryk321/signalrgb)
 
 ---
 

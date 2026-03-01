@@ -83,7 +83,7 @@ To access advanced features like WSL 3.0:
    - Both RTX HDR and RTX VSR should be enabled
 
 ### AMD GPU Optimization
-1. Install the latest AMD drivers from the [AMD website](https://www.amd.com/en/support/graphics-drivers).
+1. Install the latest AMD drivers from the AMD's website
 2. Enable Radeon Boost and FSR (FidelityFX Super Resolution):
    - Open `Radeon Settings`.
    - Navigate to `Performance > Image Quality`.

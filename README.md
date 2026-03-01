@@ -65,12 +65,6 @@ start ms-cxh:localonly
 ---
 
 ## Post-Install Configuration
-### Enable Long-Term Servicing Branch (LTSC)
-For stability and compatibility, enable LTSC:
-```bash
-Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\RTM" -Name "DisableLTSBProvisioning" -Value 0 -Force
-```
-
 ### Enable Developer Mode
 To access advanced features like WSL 3.0:
 1. Press `Win + I` to open Settings.
@@ -86,7 +80,7 @@ To access advanced features like WSL 3.0:
    - Open `NVIDIA Control Panel`.
    - Navigate to `Display > Game Settings > In-Game_overlay`.
    - Enable **RTX Ray Tracing** and **DLSS (Deep Learning Super Sampling)**.
-   - Both RTX HDR and RTX VSR
+   - Both RTX HDR and RTX VSR should be enabled
 
 ### AMD GPU Optimization
 1. Install the latest AMD drivers from the [AMD website](https://www.amd.com/en/support/graphics-drivers).
@@ -113,7 +107,7 @@ To access advanced features like WSL 3.0:
 ### Media Players with AI Support
 - **VLC Media Player (RTX Upscaler)**:  
    Download and use specifically vlc version 3.0.19. This version strictly supports vsr/hdr: https://downloads.videolan.org/testing/vlc-rtx-upscaler/.
-- **MPC-BE with madVR** (What I use):
+- **MPC-BE with madVR (What I use)**:
    A powerful combination for high-quality video playback. Use winget to install.
 
 ---

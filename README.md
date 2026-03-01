@@ -142,7 +142,6 @@ To access advanced features like WSL 3.0:
 ## More Information
 For further assistance, visit the following resources:
 - [Windows 11 Documentation](https://learn.microsoft.com/en-us/windows)
-- [NVIDIA GeForce Experience](https://www.nvidia.com/uk-en/geforce/experience/)
-- [AMD Radeon Settings](https://support.amd.com)
+- Google
 
 ---

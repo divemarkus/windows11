@@ -117,6 +117,13 @@ To access advanced features like WSL 3.0:
 
 ---
 
+### 🎯 Bottom Line
+- MPC-BE + madVR is the highest‑quality video playback setup available on Windows:
+- madVR handles HDR, tone‑mapping, and upscaling
+- MPC handles playback
+
+---
+
 ## Security Features
 ### Enable DNS over TLS (DoT)
 - See [dns over tls script repo](https://github.com/divemarkus/dns/blob/main/Configure-DoT.ps1)

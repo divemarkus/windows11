@@ -108,10 +108,10 @@ To access advanced features like WSL 3.0:
 - **VLC Media Player (RTX Upscaler)**:  
    Download and use specifically vlc version 3.0.19. This version strictly supports vsr/hdr: https://downloads.videolan.org/testing/vlc-rtx-upscaler/.
 - **MPC-BE with madVR (What I use)**:
-   A powerful combination for high-quality video playback. Use winget to install.
-- yy```winget install MPC-BE.MPC-BE```
+   A powerful combination for high-quality video playback.
+- Use winget to install: 
  ```
- winget install MPC-BE.MPC-BE
+ winget install MPC-BE.MPC-BE -e
  
  winget install --id=CodecGuide.K-LiteCodecPack.Mega -e
  ```

@@ -126,6 +126,10 @@ To access advanced features like WSL 3.0:
 - madVR handles HDR, tone‑mapping, and upscaling
 - MPC handles playback
 
+### Tradeoffs
+- GPU requirements: madVR's top modes (super-res, complex HDR mapping) are GPU-intensive for older GPU's.
+- Complexity: madVR has many settings; achieving "reference" results requires reading guides and tuning, to match display/output.
+
 ---
 
 ## Security Features

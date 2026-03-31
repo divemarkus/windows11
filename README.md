@@ -41,6 +41,7 @@ Before proceeding with the installation, ensure the following:
 2. **Set BIOS/UEFI to UEFI Mode**:  
    - Enter your motherboard's BIOS or UEFI settings (usually by pressing `F2`, `Delete`, or another key during boot).
    - Ensure that the system is set to boot in UEFI mode and not Legacy.
+   - Also, that you're using XMP or EXPO on your DRAM settings, if supported. This will boost your RAM (see Task Mgr).
 
 ### Step 3: Install Windows 11
 1. Insert the USB installer and restart your computer.
@@ -65,6 +66,8 @@ start ms-cxh:localonly
 ---
 
 ## Post-Install Configuration
+- [Remove unnecessary bloat](https://github.com/raphire/win11debloat)
+
 ### Enable Developer Mode
 To access advanced features like WSL 3.0:
 1. Press `Win + I` to open Settings.
@@ -146,7 +149,8 @@ To access advanced features like WSL 3.0:
 ### Clean Up Windows 11 Bloatware
 - Use **CrapFixer** to remove unnecessary apps:
   - GitHub: [CrapFixer](https://github.com/builtbybel/CrapFixer)
-  - Run the tool with caution and review each app before removal.
+  - Use Win11 Debloat instead. It's just PowerShell script.
+- UPDATE: [Use this instead](https://github.com/raphire/win11debloat)
 
 ### RGB Lighting Control
 - Install OpenRGB or SignalRGB for custom lighting effects:

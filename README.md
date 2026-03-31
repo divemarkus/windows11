@@ -66,8 +66,6 @@ start ms-cxh:localonly
 ---
 
 ## Post-Install Configuration
-- [Remove unnecessary bloat](https://github.com/raphire/win11debloat)
-
 ### Enable Developer Mode
 To access advanced features like WSL 3.0:
 1. Press `Win + I` to open Settings.
@@ -147,10 +145,11 @@ To access advanced features like WSL 3.0:
 
 ## Removing Bloatware
 ### Clean Up Windows 11 Bloatware
-- Use **CrapFixer** to remove unnecessary apps:
-  - GitHub: [CrapFixer](https://github.com/builtbybel/CrapFixer)
-  - Use Win11 Debloat instead. It's just PowerShell script.
-- UPDATE: [Use this instead](https://github.com/raphire/win11debloat)
+- Use **W11 Debloat** to remove unnecessary W11 junk:
+  - [W11 Debloat](https://github.com/raphire/win11debloat)
+  - [Logfile to show what's being removed](Win11Debloat.log)
+
+---
 
 ### RGB Lighting Control
 - Install OpenRGB or SignalRGB for custom lighting effects:
